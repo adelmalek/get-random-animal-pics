@@ -9,8 +9,8 @@ function getRandomPanda() {
         .then( result => result.json() )
         .then( data => {
             panda.innerHTML = `<img src="${data.image}"/>`
-        })
-}
+        });
+};
 
 
 function getRandomFox() {
@@ -18,8 +18,8 @@ function getRandomFox() {
         .then( result => result.json() )
         .then( data => {
             fox.innerHTML = `<img src="${data.image}"/>`
-        })
-}
+        });
+};
 
 
 panda_btn.addEventListener('click', getRandomPanda);
