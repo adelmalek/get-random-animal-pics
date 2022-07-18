@@ -1,1 +1,1 @@
-Link: https://geradele.github.io/get-random-animal-pics/
+Link: https://adelmalek.github.io/get-random-animal-pics/
